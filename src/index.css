@@ -1,0 +1,63 @@
+/* Main */
+*{
+  font-family: monospace;
+  margin: 0;
+}
+
+body{
+  background-image: url("https://i.ibb.co/Py13hKQ/blurred-scp-logo-digital-art-g1rxvoemrj83l12k.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Containers */
+#scp-document-container{
+  background-image: url("https://scpcbgame.com/documentpng.png");
+  height: 1170px;
+  width: 830px;
+  margin: auto;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#scp-document-content{
+  padding-top: 20%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+nav{
+  background-color: black;
+  color: white;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* Elements */
+#scp-doc-image{
+  margin-top: 8%;
+}
+#scp-doc-image:hover{
+  cursor: pointer;
+}
+
+#scp-image{
+  height: auto;
+  width: 35%;
+}
+
+#scp-document-content > h1{
+  font-size: 3rem;
+  margin-right: 40%;
+}
+
+.scp-label-image{
+  height: 250px;
+  width: 250px;
+}

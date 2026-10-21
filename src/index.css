@@ -39,6 +39,10 @@ footer{
   text-align: center;
 }
 
+.scp-label-group{
+  text-align: center;
+}
+
 /* Elements */
 #scp-doc-image{
   margin-top: 8%;
